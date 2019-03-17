@@ -1,0 +1,12 @@
+# import * from "../generated/prisma.graphql";
+
+# These define the client side schema for data inputs.  These types are used to collect inputs and then resolved in the resolvers
+type Query {
+  user(id: ID!): User
+}
+
+type Mutation {
+  createUser(
+    name: String!
+  ): User!
+}

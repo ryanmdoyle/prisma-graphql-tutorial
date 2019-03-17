@@ -1,0 +1,23 @@
+{
+  "name": "prisma-graphql-tutorial",
+  "version": "1.0.0",
+  "description": "A Prisma and GraphQL Tutorial",
+  "main": "database.js",
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "graphql": "^14.1.1",
+    "graphql-cli": "^3.0.11",
+    "graphql-import": "^0.7.1",
+    "prisma": "^1.28.5",
+    "prisma-binding": "^2.3.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

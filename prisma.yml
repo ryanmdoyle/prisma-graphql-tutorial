@@ -1,0 +1,9 @@
+endpoint: https://us1.prisma.sh/prisma-tutorial/prisma-graphql-tutorial/dev
+datamodel: datamodel.prisma
+secret: currentlyDrinkingPhilzCoffee
+generate: 
+  - generator: graphql-schema
+    output: ./generated
+hooks:
+  post-deploy:
+    - prisma generate
