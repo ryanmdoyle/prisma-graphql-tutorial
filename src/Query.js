@@ -1,10 +1,10 @@
 const Query = {
-  user(root, args, ctx, info) {
-    if (!ctx.request.userId) {
+  user(parent, args, context, info) {
+    if (!context.request.userId) {
       return null;
     }
-    return ctx.db.query.user({
-      where: { id: ctx.request.userId }
+    return context.db.query.user({
+      where: { id: context.request.userId }
     }, info);
   }
 };
