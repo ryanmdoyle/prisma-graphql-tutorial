@@ -4,7 +4,7 @@
   "description": "A Prisma and GraphQL Tutorial",
   "main": "database.js",
   "dependencies": {
-    "apollo-server": "^2.4.8",
+    "apollo-server": "^2.14.2",
     "graphql": "^14.1.1",
     "graphql-cli": "^3.0.11",
     "graphql-import": "^0.7.1",
